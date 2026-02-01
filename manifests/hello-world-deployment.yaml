@@ -20,4 +20,4 @@ spec:
         - containerPort: 80
       syncPolicy:
         automated:
-          enabled: true
+          selfHeal: true
