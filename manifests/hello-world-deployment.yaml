@@ -2,19 +2,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-world
+  name: my-nginx
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: hello-world
+      app: my-nginx
   template:
     metadata:
       labels:
-        app: hello-world
+        app: my-nginx
     spec:
       containers:
-      - name: hello-world
+      - name: my-nginx
         image: nginx:stable-alpine3.23
         ports:
         - containerPort: 80
