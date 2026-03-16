@@ -17,3 +17,4 @@ You should see
 ```
 application 'my-nginx' created
 ```
+
