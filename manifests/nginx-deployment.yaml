@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: my-nginx
-        image: nginx:latest
+        image: orlando168/nginx:hardened
         ports:
         - containerPort: 80
